@@ -14,13 +14,13 @@ function activate(context) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "mvn-cleaner-vscode" is now active!');
+	console.log('Congratulations, your extension "Maven Cleaner" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 
-	vscode.window.showInformationMessage('Hello World from mvn-cleaner-vscode!');
+	vscode.window.showInformationMessage('Maven Cleaner Start!');
 
 	let disposable = vscode.commands.registerCommand('mvn-cleaner-vscode.MavenCleaner', async () => {
         let alwaysSelected = false;
@@ -41,7 +41,7 @@ function activate(context) {
         }
 
         await cleanMavenTempFiles(mavenRepoPath);
-		vscode.window.showInformationMessage('Maven Cleaner finished!');
+		vscode.window.showInformationMessage('Maven Cleaner finished');
     });
 
     context.subscriptions.push(disposable);
