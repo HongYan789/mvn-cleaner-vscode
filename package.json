@@ -3,6 +3,8 @@
   "displayName": "mvn-cleaner-vscode",
   "description": "this is maven cleaner vscode plugin",
   "version": "0.0.1",
+  "publisher": "HongYan",
+  "icon": "maven-cleaner.png",
   "engines": {
     "vscode": "^1.85.0"
   },
