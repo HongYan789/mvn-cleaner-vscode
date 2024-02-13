@@ -1,15 +1,15 @@
 # MAVEN CLEANER
 
-这是一个用于清理本地 Maven 仓库文件下载失败的扩展插件程序
+A simple tool to clean your local maven repository
 
-# 用法:
+# Usage:
 
-1. 插件中心下载 maven cleaner 插件
-2. 运行命令 > Maven Cleaner 或者 鼠标右键 Maven Cleaner 或者使用快捷键 Ctrl + Command + C
-3. 选择要清理的目录
-4. 点击保存即可
+1. plugin center download 'maven cleaner' plugin
+2. Run the Command Maven Cleaner or right-click Maven Cleaner or use the shortcut Ctrl + Command + C
+3. choose maven path
+4. save 
 
-# 效果图
+# image
 
 ![image-20240214032358053](https://gitee.com/hongyan008/blog-img/raw/img/img/image-20240214032358053.png)
 

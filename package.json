@@ -2,7 +2,7 @@
   "name": "maven-cleaner",
   "displayName": "Maven Cleaner",
   "description": "this is maven cleaner vscode plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "HongYan",
   "icon": "maven-cleaner.png",
   "engines": {
@@ -19,6 +19,23 @@
         "command": "mvn-cleaner-vscode.MavenCleaner",
         "title": "Maven Cleaner"
       }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorFocus",
+          "command": "mvn-cleaner-vscode.MavenCleaner",
+          "group": "2_format"
+        }
+      ]
+    },
+    "keybindings": [
+        {
+            "command": "mvn-cleaner-vscode.MavenCleaner",
+            "key": "cmd+ctrl+c",
+            "mac": "cmd+ctrl+c",
+            "when": "editorTextFocus"
+        }
     ]
   },
   "scripts": {
